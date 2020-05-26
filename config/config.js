@@ -39,19 +39,6 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
-			position: "top_left",
-			config: {
-				calendars: [
-					{
-						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
-					}
-				]
-			}
-		},
-		{
-			module: "calendar",
 			header: "Kareem's Calendar",
 			position: "top_left",
 			config: {
@@ -71,9 +58,9 @@ var config = {
 			module: "currentweather",
 			position: "top_right",
 			config: {
-				location: "New York",
-				locationID: "",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "Ottawa",
+				locationID: "6094817", //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
+				appid: "2282238dc966ed262b052a9e197de07a"
 			}
 		},
 		{
@@ -81,9 +68,9 @@ var config = {
 			position: "top_right",
 			header: "Weather Forecast",
 			config: {
-				location: "New York",
-				locationID: "5128581",  //ID from https://openweathermap.org/city
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "Ottawa",
+				locationID: "6094817", //ID from https://openweathermap.org/city
+				appid: "2282238dc966ed262b052a9e197de07a"
 			}
 		},
 		{
