@@ -58,7 +58,7 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/ical/kareemassad4%40gmail.com/private-c65a5b7555f54da0e23613c567bddabc/basics.ics"
+						url: "https://calendar.google.com/calendar/ical/kareemassad4%40gmail.com/private-c65a5b7555f54da0e23613c567bddabc/basic.ics"
 					}
 				]
 			}
