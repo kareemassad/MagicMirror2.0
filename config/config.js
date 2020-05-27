@@ -89,8 +89,9 @@ var config = {
 		},
 		{
 			module: "MMM-NowPlayingOnSpotify",
-			position: "top_left",
+			position: "bottom_right",
 			config: {
+			  showCoverArt: true,
 			  clientID: "47b1df84dd804a17a77ddab564c05f79",
 			  clientSecret: "67681af49c0041959131bad5973529b6",
 			  accessToken: "BQD90HLiCRhmmUWrwTHeYPTTIRQjEjwgK-VzGp4t3mIpVSj4ifEsKEp4b4msYBpnTCKRFVDTwF5vq3sO8k3Jvz2M9irL0PaRvOOerKqS1YoPzeJqHXvs59ZtMD8i4P0ojC4xic3SEhRWo9RDt7O34prgAictTzH6JPOb22uHTv8_jA",
