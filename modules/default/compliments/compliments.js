@@ -12,17 +12,19 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hey there sexy!"
+				"Hey there sexy!",
+				"SHEEEEESH BABY GOD DAYUMMM",
+				"Damn that ass PHAT"
 			],
 			morning: [
-				"Good morning, handsome!",
-				"Enjoy your day!",
-				"How was your sleep?"
+				"Good morning, Hottie!",
+				"Why the fuck are you up this early lmao",
+				"Sabahooooo"
 			],
 			afternoon: [
 				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
+				"Nyahhhhhhhhehhhhhhhh fams",
+				"Lemme smash shordy!"
 			],
 			evening: [
 				"Wow, you look hot!",
