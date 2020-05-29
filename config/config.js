@@ -42,6 +42,9 @@ var config = {
 			header: "Kareem's Calendar",
 			position: "top_left",
 			config: {
+				colored: true,
+				coloredSymbolOnly: true,
+				maximumEntries: 5,
 				calendars: [
 					{
 						symbol: "calendar-check",
@@ -80,7 +83,6 @@ var config = {
 			config: {
 				debug: false, //debug mode off
 				style: "mini", //mini || default
-				
 				miniBarConfig: {
 					album: true,
 					scroll: true,
