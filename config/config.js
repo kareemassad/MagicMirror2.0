@@ -42,12 +42,11 @@ var config = {
 			header: "Kareem's Calendar",
 			position: "top_left",
 			config: {
-				colored: true,
-				coloredSymbolOnly: true,
-				maximumEntries: 5,
+				maximumEntries: 8,
+				showLocation: true,
 				calendars: [
 					{
-						symbol: "calendar-check",
+						symbol: "calendar",
 						url: "https://calendar.google.com/calendar/ical/kareemassad4%40gmail.com/private-c65a5b7555f54da0e23613c567bddabc/basic.ics"
 					}
 				]
