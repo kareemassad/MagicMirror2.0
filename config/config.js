@@ -65,7 +65,7 @@ var config = {
 		},
 		{
 			module: "weatherforecast",
-			position: "top_right",
+			position: "bottom_right",
 			header: "Weather Forecast",
 			config: {
 				location: "Ottawa",
@@ -73,24 +73,19 @@ var config = {
 				appid: "2282238dc966ed262b052a9e197de07a"
 			}
 		},
-		{
-			module: "newsfeed",
-			position: "bottom_bar",
-			config: {
-				feeds: [
-					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true
-			}
-		},
+
 		{
 			module: "MMM-Spotify",
 			position: "bottom_left",
 			config: {
+				debug: false, //debug mode off
+				style: "mini", //mini || default
+				
+				miniBarConfig: {
+					album: true,
+					scroll: true,
+					logo: true,
+				}
 			}
 		}
 	]
