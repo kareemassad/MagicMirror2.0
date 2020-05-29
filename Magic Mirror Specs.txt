@@ -1,0 +1,17 @@
+# Magic Mirror Specs
+
+## Dimensions 
+
+Width = 55cm;
+Height = 36cm;
+Depth  = 3cm;
+
+Birmy Boy on Back = 1.5cm;
+Front Birmy Boy = 1.4cm || 1.3cm;
+
+Heigh of Back Box = 5cm; //Little over
+
+Box to bottom = 9.3cm; //first 1/3 without useless port box
+Box to top = 11.5cm; //last 1/3 without useless port box
+
+useless port box height = 3cm; 
