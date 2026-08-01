@@ -241,3 +241,37 @@ sup {
   border-spacing: 0;
   border-collapse: separate;
 }
+
+/**
+ * Portrait display spacing.
+ * Keep the existing modules and layout, but reduce the unused gaps on a
+ * vertically mounted monitor.
+ */
+
+@media screen and (orientation: portrait) {
+  body {
+    margin: 44px;
+    height: calc(100% - 88px);
+    width: calc(100% - 88px);
+  }
+
+  .module {
+    margin-bottom: 22px;
+  }
+
+  .region.top .container {
+    margin-bottom: 18px;
+  }
+
+  .region.bottom .container {
+    margin-top: 18px;
+  }
+
+  .region.bottom .module {
+    margin-top: 22px;
+  }
+
+  .region.lower.third {
+    top: 62%;
+  }
+}
